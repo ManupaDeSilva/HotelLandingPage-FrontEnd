@@ -1,0 +1,344 @@
+.about-header{
+
+    background-color: #179366;
+    height: 80px;
+    padding-top: 30px;
+    font-family: "Righteous", sans-serif;
+    font-size: 55px;
+    position: absolute;
+    left: 5%;
+    margin-top: 8%;
+    font-size: 45px;
+    font-weight: 800;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(180deg, #179366 4.66%, #e9b260);
+    -webkit-background-clip:text;
+    color: transparent;
+  
+
+}
+
+.aboutus-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 0 100px;
+    padding: 5%;
+}
+.aboutImg{
+    position: relative;
+
+}
+.about-col1{
+    margin-top: 11%;
+    font-size: 18px;
+}
+.about-col1 li{
+    font-family: "Arvo", serif;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+.aboutSection{
+    background-color: palevioletred;
+}
+.about-col1 p{
+    font-family: "Arvo", serif;
+    text-align: justify;
+    color: rgb(56, 56, 56);
+}
+
+
+/* ======= */
+#destinationSection{
+    height: 150vh;
+    
+    }
+    
+
+.destination-header h1{
+    font-family: "Righteous", sans-serif;
+    font-size: 55px;
+    background: linear-gradient(180deg, #179366 4.66%, #e9b260);
+    -webkit-background-clip:text;
+    color: transparent;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.destination-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+
+
+.unawatunaHeader{
+    
+position: relative;
+font-size: 30px;
+padding-bottom: 30px;
+left: 200px;
+text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.hotel-unawatunaImg{
+    position: absolute;
+    width: 800px;
+    object-fit: cover;
+    left: 200px;
+}
+.UnawatunaName {
+    position: absolute;
+    top: 75px;
+    left: 110px;
+    font-size: 28px;
+    color: teal;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.UnawatunaAbout {
+    font-family: "Arvo", serif;
+    position: absolute;
+    top: 120px;
+    font-size:20px ;
+    display: flex;
+    color: rgb(66, 66, 66);
+    align-items: center;
+    justify-content: center;
+    height: 294px;
+    padding: 30px;
+}
+
+.Unawatuna-textBox {
+    top: 1700px;
+    left: 800px;
+    background-color: #d3d4e5;
+    box-shadow: 0 0 33px 15px rgba(0, 0, 0, 0.13);
+    border: 1px solid #b7b7b7;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+   
+}
+.Unawatuna-textBox,
+.logbutton {
+    position: absolute;
+    box-sizing: border-box;
+    overflow: hidden;
+   
+}
+
+.logbutton{
+    top: 430px;
+    left: 185px;
+    border-radius: 30px;
+    border-color: teal;
+    box-shadow: 0 0 33px 15px rgba(0, 0, 0, 0.13);
+}
+.see-more{
+    color: #179366;
+    padding: 10px 30px;
+    background-color: #d3d4e5;
+    transition: 0.8s;
+}
+
+.see-more:hover{
+    color: white;
+    background-color: teal;
+}
+
+
+#experienceSection{
+    height: 120vh;    
+}
+.experienceHeader{
+    font-family: "Righteous", sans-serif;
+    position: relative;
+    text-align: center;
+    font-size: 55px;
+    height: 80px;
+    font-weight: 600;
+    padding-top: 30px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(180deg, #179366 4.66%, #e9b260);
+    -webkit-background-clip:text;
+    color: transparent;
+}
+
+
+.expDiscription{
+    font-family: "Arvo", serif;
+padding-top: 55px;
+padding-bottom:25px ;
+padding-left: 11%;
+font-size: 18px;
+}
+
+
+.expBox{
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    width: 380px;
+    position: relative;
+    height: 265px;
+    overflow: hidden;
+    flex-shrink: 0;
+    box-shadow: 0 0 33px 15px rgba(0, 0, 0, 0.13);
+  }
+.expBox-img {
+    width: 380px;
+    object-fit:contain;
+  }
+
+.img-film {
+    position: absolute;
+    top: 0;
+    height: 280px;
+    left: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.677), rgba(102, 102, 102, 0));
+    width: 380px;
+}
+
+
+.box1Text,
+.box2Text,
+.box3Text,
+.box4Text,
+.box5Text,
+.box6Text{
+
+padding-top: 200px;
+position: absolute;
+font-size: 20px;
+display: flex;
+top:0;
+left:0;
+color: white;
+transition: 0.9s;
+}
+.expRow1,
+.expRow2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 0 30px;
+}
+
+.expBoxes{
+    display:grid;
+    gap: 30px 0;
+}
+
+
+.box1Text{
+  left:65px;
+}
+.box2Text{
+  left:70px;
+}
+.box3Text{
+  left:110px;
+}
+.box4Text{
+  left:70px;
+}
+.box5Text{
+  left:47px;
+}
+.box6Text{
+  left:90px;
+}
+
+.box1Text:hover,
+.box2Text:hover,
+.box3Text:hover,
+.box4Text:hover,
+.box5Text:hover,
+.box6Text:hover{
+  top:-80px;
+}
+
+#offers{
+    height: 100vh;
+
+}
+.offersHeader{
+    font-family: "Righteous", sans-serif;
+    position: relative;
+    text-align: center;
+    font-size: 55px;
+    height: 80px;
+    font-weight: 600;
+    padding-top: 30px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(180deg, #179366 4.66%, #e9b260);
+    -webkit-background-clip:text;
+    color: transparent;
+}
+
+.offerDiscription{
+    font-family: "Arvo", serif;
+    padding-top: 55px;
+    padding-bottom:25px ;
+    padding-left: 14.5%;
+    font-size: 18px;
+    }
+    
+    .offerbox1{
+       display: grid;
+       width: 350px;
+       padding: 5px 5px;
+       box-shadow: 0 0 33px 15px rgba(0, 0, 0, 0.088);
+    }
+
+    .offerimg{
+        width: 340px;
+    }
+    .offerbox1-text{
+      
+        text-align: center;
+       
+    }
+    .offers-container2{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        
+    }
+
+    .linelast{
+        margin-bottom: 30px;
+    }
+
+
+
+
+    .see-more1{
+        text-align: center;
+        width: 120px;
+        color: #179366;
+        padding: 8px 30px;
+        background-color: transparent;
+        transition: 0.8s;
+        border: 1px solid teal;
+        border-radius: 30px;
+        
+    }
+    
+    .see-more1:hover{
+        border-radius: 20px;
+        cursor: pointer;
+        color: white;
+        background-color: teal;
+    }
+  .morebutton{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .offerbox-1line{
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }

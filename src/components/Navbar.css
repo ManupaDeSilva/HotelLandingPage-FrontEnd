@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Upper Navigation Bar */
+
+.logo-container img {
+    width: 300px;
+    cursor: pointer;
+}
+
+.navbar-up-texts{
+    display: flex;
+}
+.navbar{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding-left: 3%;
+    padding-right: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.login-icon,
+.reserve-icon,
+.lan-icon,
+.mob-icon
+{
+    margin: 7px 10px ;
+    width: 30px;
+    height: 30px;
+}
+
+.navbar a{
+   text-decoration: none;
+    margin: 12px 10px;
+    font-size: 20px;
+}
+
+.navbar-up-texts div{
+    margin-top: 9px;
+    font-size: 22px;
+
+}
+.navbar-up-texts{
+    margin-top: 5px;
+}
+
+.navbar-up-texts a{
+text-decoration: none;
+color: black;
+font-weight: 600;
+}
+
+/* Lower Navigation Bar */
+
+.navbar-bottom button{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+    background-color: transparent;
+    border: none;
+    color: none;
+}
+.arrowdown{
+    cursor: pointer;
+    margin-left: 10px;
+    
+}
+.navbar-bottom{
+    padding: 15px;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: rgb(37, 37, 37);
+display: flex;
+}
+.nav-text{
+    font-family: "Arvo", serif;
+    color: white;
+}
+
+/* about section */
+
+.box1-input1,
+.box1-input2 {
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.box1-input1 {
+  width: 153px;
+}
+.box1-input2 {
+  width: 150px;
+  white-space: pre-wrap;
+}
+.box1-container {
+  width: 500px;
+  background-color: rgb(230, 230, 230);
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 32px;
+  border-radius: 10px;
+}
+
+
+.box2-input,
+.box3-input {
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    width: 304px;
+    position: relative;
+    text-align: left;
+    display: inline-block;
+    height: 36px;
+    flex-shrink: 0;
+}
+
+.box3-input{
+    margin-left: 30px;
+    width: 250px;
+}
+.box2-container,
+.box3-container {
+    border-radius: 10px;
+    background-color: rgb(230, 230, 230);
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2-container{
+    width: 470px;
+}
+.box3-container{
+    width: 400px;
+}
+
+.search {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: relative;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    height: 37px;
+    flex-shrink: 0;
+    font-weight: 600;
+}
+.search-container,
+.searchbar {
+    display: flex;
+    flex-direction: row;
+}
+.search-container {
+    border-radius: 170px;
+    width: 136px;
+    background-color: rgb(122, 188, 188);
+    height: 55px;
+    align-items: center;
+    justify-content: center;  
+    transition: 0.5s;
+}
+.search-container:hover{
+    background-color: teal;
+   
+}
+
+
+
+
+.personIcon,
+.tagIcon,
+.scheduleIcon {
+  position: absolute;
+  top: 573px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.personIcon{
+  left: 530px;
+}
+.scheduleIcon {
+  left: 58px;
+}
+.tagIcon {
+    left: 970px;
+}
+
+.searchbar {
+    width: 1430px;
+    position: absolute;
+    top: 550px;
+    overflow: hidden;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: rgba(96, 97, 28, 0.507);
+    padding:10px ;
+    gap: 0 13px;
+    margin-left: 2%;
+    border-radius: 10px;
+}
+
+.findHotel-container .nav-text{
+    cursor: pointer;
+    position: absolute;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 7px 15px;
+    border-radius: 5px;
+    left: 1350px;
+
+}
+
+
+

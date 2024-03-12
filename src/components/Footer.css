@@ -1,0 +1,97 @@
+#footer{
+    height: 100vh;
+
+}
+.colheader{
+font-size: 30px;
+padding: 20px 0;
+}
+
+fline{
+    font-size: 20px;  
+}
+.footerRow1{
+    display: flex;
+   justify-content: center;
+   gap: 200px; 
+}
+
+.footer-container{
+    display: grid;
+    gap: 70px;
+}
+
+.footerImg{
+position: absolute;
+
+bottom:px;
+left: -50px;
+width:110%
+}
+.icon1{
+    cursor: pointer;
+    width: 35px;
+    margin-right: 20px;
+}
+.followtext{
+    font-size: 28px;
+    padding: 20px 10px;
+}
+.follow{
+    position: absolute;
+    left: 590px;
+    margin-top: 5%;
+}
+
+.socialicons{
+   display: flex;
+
+}
+.sIcon1,
+.sIcon2,
+.sIcon3,
+.sIcon4,
+.sIcon5
+{
+margin-right: 5px;
+
+}
+.feedback{
+    position: absolute;
+    padding: 10px 10px;
+    border: 2px solid rgb(66, 66, 66);
+    display: flex;
+    left: 10%;
+    margin-top: 7%;
+
+}
+
+.feedbackSubmit{
+    padding: 10px 10px;
+
+}
+.vector{
+    position: relative;
+    width: 18px;
+}
+.feedbackInput{
+    outline: 0;
+    width: 250px;
+    border: none;
+}
+
+.vectorWrapper{
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px;
+    margin-left: 10px;
+}
+.vectorWrapper:hover{
+   background-color: rgba(105, 105, 105, 0.496);
+}
+.vectorWrapper{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(124, 124, 124);
+    font-weight: 100;
+}
